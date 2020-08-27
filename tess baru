@@ -1,0 +1,18 @@
+<?php
+class produk{
+    public $NamaBarang = "Sepeda",
+             $Merk = "Senator",
+             $Harga = "1.500.000";
+
+}
+
+$produk1 = new produk();
+$produk1->NamaBarang = "Pedal";
+var_dump($produk1);
+
+echo "<br>";
+
+$produk2 = new produk();
+$produk2->NamaBarang = "Jok";
+$produk2->propertybaru= "Merah";
+var_dump($produk2);
